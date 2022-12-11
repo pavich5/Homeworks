@@ -1,5 +1,5 @@
 function detect_data_type(value) {
-  var dtypes = [Function, RegExp, Number, String, Boolean, Object],
+  let dtypes = [Function, RegExp, Number, String, Boolean, Object],
     x,
     len;
 
